@@ -1,0 +1,23 @@
+{
+  "name": "cross-worker-pear",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "lunte",
+    "format": "prettier . --write",
+    "test": "prettier . --check"
+  },
+  "keywords": [],
+  "author": "Holepunch Inc",
+  "license": "Apache-2.0",
+  "type": "commonjs",
+  "dependencies": {
+    "pear-run": "^2.0.0"
+  },
+  "devDependencies": {
+    "lunte": "^1.4.0",
+    "prettier": "^3.7.4",
+    "prettier-config-holepunch": "^2.0.0"
+  }
+}
