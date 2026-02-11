@@ -13,7 +13,7 @@
   "license": "Apache-2.0",
   "type": "commonjs",
   "dependencies": {
-    "pear-run": "^2.0.0"
+    "pear-run": "^1.0.8"
   },
   "devDependencies": {
     "lunte": "^1.4.0",
