@@ -1,6 +1,6 @@
 const run = require('pear-run')
 
-exports.spawn = async function spawn(filename, _, args = []) {
+exports.spawn = function spawn(filename, _, args = []) {
   args = Array.isArray(_) ? _ : args
 
   let link
