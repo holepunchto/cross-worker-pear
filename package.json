@@ -1,17 +1,21 @@
 {
   "name": "cross-worker-pear",
   "version": "1.1.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Cross-runtime worker abstractions for Pear",
   "scripts": {
-    "lint": "lunte",
-    "format": "prettier . --write",
-    "test": "prettier . --check"
+    "format": "prettier --write . && lunte --fix",
+    "lint": "prettier --check . && lunte"
   },
-  "keywords": [],
-  "author": "Holepunch Inc",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holepunchto/cross-worker-pear.git"
+  },
+  "author": "Holepunch",
   "license": "Apache-2.0",
-  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/holepunchto/cross-worker-pear/issues"
+  },
+  "homepage": "https://github.com/holepunchto/cross-worker-pear#readme",
   "dependencies": {
     "pear-run": "^1.0.8"
   },
