@@ -1,6 +1,6 @@
 # cross-worker-pear
 
-Cross-runtime worker abstractions for Pear
+Cross-runtime worker abstractions for Pear.
 
 ```
 npm i cross-worker-pear
